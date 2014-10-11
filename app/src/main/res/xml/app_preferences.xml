@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General Settings">
+        <ListPreference
+            android:key="Language"
+            android:defaultValue="English"
+            android:title="Language"
+            android:summary="Select Language"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Usage Settings">
+    <CheckBoxPreference
+        android:key="PersistentNotification"
+        android:defaultValue="false"
+        android:title="@string/notificationPref"
+        android:summary="@string/notificationDesc"/>
+</PreferenceCategory>
+</PreferenceScreen>

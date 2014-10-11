@@ -2,7 +2,11 @@
 <resources>
 
     <string name="app_name">Torch</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="notificationDesc">Enable Quick Launch from Notification</string>
+    <string name="notificationPref">Notification</string>
+
+    <string name="action_about">About</string>
     <string name="action_settings">Settings</string>
+
 
 </resources>
